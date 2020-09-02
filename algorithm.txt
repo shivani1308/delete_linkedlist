@@ -1,0 +1,9 @@
+Algorithm to delete first node of Singly Linked List
+%%Input:  head of the linked list
+Begin:
+    If (head != NULL) then
+        toDelete ← head
+        head ← head.next
+        unalloc (toDelete)
+    End if
+End
